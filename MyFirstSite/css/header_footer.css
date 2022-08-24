@@ -1,0 +1,381 @@
+/* header style start */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Jost;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/Jost-VariableFont_wght.ttf");
+}
+.body {
+    font-family: "Jost";
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    background-color: #2D2D2D;
+    background-size: cover;
+
+   
+}
+.main{
+    display: flex;
+}
+.wrapper {
+    width: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+.header_wrapper {
+    max-width: 451px;
+    margin: 0 auto;
+    padding-top: 26px;
+   
+    
+}
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+}
+
+.header_link{
+    text-decoration: none;
+    color: #C9C9C9;
+    font-size: 20px;
+    position: fixed;
+    z-index: 999999;
+}
+.header_link:hover,.header_link:focus,.header_link:active {
+    opacity: .75;
+}
+
+
+/* header style end */
+
+/* intro style start */
+
+
+/*arrows*/
+.arrow-3 {
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    height: 18px;
+    line-height: 18px; 
+    display: inline-block; 
+    margin: 20px;
+}
+.arrow-3 .arrow-3-icon {
+    position: relative;
+    top: -1px;
+    transition: transform 0.3s ease;
+    vertical-align: middle;
+}
+.arrow-3 .arrow-3-iconcircle {
+    transition: stroke-dashoffset .3s ease;
+    stroke-dasharray: 95;
+    stroke-dashoffset: 95;
+}
+.arrow-3:hover .arrow-3-icon {
+    transform: translate3d(5px, 0, 0);
+}
+.arrow-3:hover .arrow-3-iconcircle {
+    stroke-dashoffset: 0;
+}
+/*arrows*/
+
+.intro {
+    height: 100%;
+    background-color: #2D2D2D;
+    background-size: cover;
+    
+}
+.intro_title_name{
+    position: absolute;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 81px;  
+    color: #FFFFFF;    
+    padding-left: 810px;
+    padding-top: 180px;
+    padding-right: 180px;
+
+}
+.intro_buttons {
+    position: absolute;
+    display: flex;
+    padding-left: 810px;
+    padding-top: 466px;
+
+}
+.rectangle{
+    position: absolute;
+    width: 440px;
+    height: 440px;
+    left: 200px;
+    top: 215px;
+    
+    /* Sec / White */
+    
+    background: #FFFFFF;
+    border-radius: 100px;
+    transform: rotate(-45deg);
+    
+}
+.rectangle2{
+    
+position: absolute;
+width: 649px;
+height: 665px;
+left: 113px;
+top: 30px;
+
+background: radial-gradient(38.42% 38.42% at 50% 50%, #7996FC 0%, rgba(121, 150, 252, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+filter: drop-shadow(0px 0px 15px rgba(121, 150, 252, 0.15));
+}
+.photo{
+    position: absolute;
+    width: 362px;
+    height: 609px;
+    left: 243px;
+    top: 103px; 
+}
+.intro_hire {
+    width: 180px;
+    height: 65px;
+    background: #7996FC;
+    box-shadow: 0px 0px 15px 
+    #414141;
+    border-radius: 10px;
+    margin: 10px 5px ;
+}
+.intro_port {
+    width: 180px;
+    height: 65px;
+    background: #414141;
+    box-shadow:#7996FC;
+    border-radius: 10px;
+    margin: 10px 5px ;
+
+}
+.intro_telegram {
+    width: 180px;
+    height: 65px;
+    background: #414141;
+    box-shadow:#7996FC;
+    border-radius: 10px;
+    margin: 10px 5px ;
+}
+.intro_citata {
+    position: absolute;
+width: 1193px;
+height: 316px;
+left: 123px;
+top: 830.07px;
+
+}
+.citata_name{
+    
+position: absolute;
+width: 270px;
+height: 52px;
+
+
+font-weight: 300;
+font-size: 36px;
+line-height: 52px;
+
+
+color: #C9C9C9;
+
+}
+.citata{
+    position: absolute;
+width: 1000px;
+height: 244px;
+top: 100px;
+
+font-family: 'Jost';
+font-style: italic;
+font-weight: 500;
+font-size: 42px;
+line-height: 61px;
+
+
+color: #FFFFFF;
+
+}
+/* intro style end */
+
+/*portfolio style start*/
+.portfolio_mainblock {
+    position: absolute;
+    max-width: 1200px;
+    height: 578px;
+    left: 123px;
+    right: 123px;
+    top: 1266.07px;
+    align-self: center;
+    
+    
+}
+.portfolio_title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+
+    color: #FFFFFF;
+    margin-bottom: 60px;
+
+}
+/*.portfolio__title_item {
+
+}
+*/
+.portfolio__icons {
+    display: flex;
+    justify-content: center;
+    
+}
+/*
+.portfolio__icons_item {
+    
+}
+*/
+.portfolio__icons_item2 {
+    margin-left: 67.5px;
+    margin-right: 67.5px;
+    
+}
+
+.portfolio__icons_subtitle {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 52px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.portfolio__buttons {
+   display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.portfolio__buttons_item {
+    width: 140px;
+    background: #7996FC;
+    box-shadow: 0px 0px 15px rgba(121, 150, 252, 0.15);
+    border-radius: 10px;
+    
+    
+
+}
+.portfolio__buttons_item:not(:last-child){
+    margin-right: 40px;
+}
+/*
+.portfolio__buttons_item1 {
+
+
+}
+*/
+
+/*portfolio style end*/
+
+/*footer style start*/
+.footer__main {
+    height: 310px;
+    width: 100%;
+    background-color: #414141;
+    box-shadow: 0px 0px 20px ;
+    border-radius: 15px 15px 0px 0px;
+    margin-top: 2000px;
+    padding-left: 210px;
+    padding-top: 50px;
+    padding-right: 210px;
+    display: flex;
+    
+}
+.footer__main_contacts {
+    width: 210px;
+    height: 200px;
+    float: left;
+    flex: 50%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+.footer__main_contacts_item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.footer__main_links {
+    float: right;
+    width: 385px;
+    height: 200px;
+    flex: 50%;
+}
+.footer__main_links_item{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.footer__main_links_item_title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+.footer__main_links_item_url {
+    margin-right: 160px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #C9C9C9;
+    margin-top: 30px;
+
+
+}
+
+.footer__main_links_item_url2 {
+    margin: 0%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #C9C9C9;
+    margin-top: 30px;
+}
+.telegram {
+    text-decoration: none;
+    color: #C9C9C9
+}
+.instagram {
+    text-decoration: none;
+    color: #C9C9C9
+}
+.git{
+    text-decoration: none;
+    color: #C9C9C9
+}
+.linkin {
+    text-decoration: none;
+    color: #C9C9C9
+}
+.stack {
+    text-decoration: none;
+    color: #C9C9C9
+}
+/*footer style end*/
